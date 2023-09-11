@@ -1,0 +1,43 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-first;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 60%;
+  display: flex;
+  align-content: center;
+  padding: 15px 25px;
+  background-color: rgba(240, 248, 255, 0.784);
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  gap: 25px;
+}
+
+.first {
+  position: relative;
+}
+
+.first div {
+  font-size: 9px;
+  background-color: rgb(67, 67, 201);
+  color: rgba(255, 255, 255, 0.665);
+  height: 18px;
+  width: 18px;
+  padding: 3px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  right: -24px;
+  top: -7px;
+}
